@@ -1,0 +1,725 @@
+2017-01-21 14:35:07.546+0000 INFO  [o.n.k.i.l.StoreLogService] Opened new internal log file
+2017-01-21 14:35:07.547+0000 INFO  [o.n.k.i.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1485005066572, randomId=7213731142624500577, storeVersion=15531981201765894, upgradeTime=1485005066572, upgradeId=1}
+2017-01-21 14:35:07.548+0000 INFO  [o.n.k.i.DiagnosticsManager] Kernel version: 3.1.0,16a782b42d76ca37db72958eb2565cf6aa671a29
+2017-01-21 14:35:07.548+0000 INFO  [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2017-01-21 14:35:07.548+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.auth_enabled=true
+2017-01-21 14:35:07.548+0000 INFO  [o.n.k.i.DiagnosticsManager] causal_clustering.raft_advertised_address=9f684cc4411e:7000
+2017-01-21 14:35:07.548+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.directories.import=import
+2017-01-21 14:35:07.548+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.memory.heap.initial_size=512M
+2017-01-21 14:35:07.548+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.jvm.additional=-Dunsupported.dbms.udc.source=tarball
+2017-01-21 14:35:07.548+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.tx_log.rotation.retention_policy=100M size
+2017-01-21 14:35:07.548+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.windows_service_name=neo4j
+2017-01-21 14:35:07.548+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.bolt.listen_address=0.0.0.0:7687
+2017-01-21 14:35:07.548+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.bolt.enabled=true
+2017-01-21 14:35:07.548+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.http.enabled=true
+2017-01-21 14:35:07.548+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.block_size.labels=56
+2017-01-21 14:35:07.548+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.http.listen_address=0.0.0.0:7474
+2017-01-21 14:35:07.548+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=/var/lib/neo4j
+2017-01-21 14:35:07.548+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.https.enabled=true
+2017-01-21 14:35:07.548+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.memory.heap.max_size=512M
+2017-01-21 14:35:07.548+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connectors.default_listen_address=0.0.0.0
+2017-01-21 14:35:07.548+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.block_size.strings=120
+2017-01-21 14:35:07.548+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.https.listen_address=0.0.0.0:7473
+2017-01-21 14:35:07.548+0000 INFO  [o.n.k.i.DiagnosticsManager] causal_clustering.transaction_advertised_address=9f684cc4411e:6000
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] causal_clustering.discovery_advertised_address=9f684cc4411e:5000
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.block_size.array_properties=120
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.memory.pagecache.size=512M
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.edition=community
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.directories.logs=/logs
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] wrapper.java.additional=-Dneo4j.ext.udc.source=docker
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] KernelDiagnostics:Versions
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] CLASSPATH
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] LINUX_SCHEDULERS
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] NETWORK
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] NEO_STORE_VERSIONS
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] NEO_STORE_ID_USAGE
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] NEO_STORE_RECORDS
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] TRANSACTION_RANGE
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] KernelDiagnostics:StoreFiles
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] System memory information:
+2017-01-21 14:35:07.549+0000 INFO  [o.n.k.i.DiagnosticsManager] Total Physical memory: 1.95 GB
+2017-01-21 14:35:07.550+0000 INFO  [o.n.k.i.DiagnosticsManager] Free Physical memory: 812.31 MB
+2017-01-21 14:35:07.550+0000 INFO  [o.n.k.i.DiagnosticsManager] Committed virtual memory: 2.04 GB
+2017-01-21 14:35:07.550+0000 INFO  [o.n.k.i.DiagnosticsManager] Total swap space: 3.90 GB
+2017-01-21 14:35:07.550+0000 INFO  [o.n.k.i.DiagnosticsManager] Free swap space: 3.90 GB
+2017-01-21 14:35:07.550+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM memory information:
+2017-01-21 14:35:07.550+0000 INFO  [o.n.k.i.DiagnosticsManager] Free  memory: 301.02 MB
+2017-01-21 14:35:07.550+0000 INFO  [o.n.k.i.DiagnosticsManager] Total memory: 512.00 MB
+2017-01-21 14:35:07.550+0000 INFO  [o.n.k.i.DiagnosticsManager] Max   memory: 512.00 MB
+2017-01-21 14:35:07.550+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: G1 Young Generation: [G1 Eden Space, G1 Survivor Space]
+2017-01-21 14:35:07.550+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: G1 Old Generation: [G1 Eden Space, G1 Survivor Space, G1 Old Gen]
+2017-01-21 14:35:07.551+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=11.69 MB, used=10.26 MB, max=240.00 MB, threshold=0.00 B
+2017-01-21 14:35:07.551+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=50.58 MB, used=49.27 MB, max=-1.00 B, threshold=0.00 B
+2017-01-21 14:35:07.551+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=8.08 MB, used=7.85 MB, max=1.00 GB, threshold=0.00 B
+2017-01-21 14:35:07.552+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Eden Space (Heap memory): committed=303.00 MB, used=177.00 MB, max=-1.00 B, threshold=?
+2017-01-21 14:35:07.552+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Survivor Space (Heap memory): committed=20.00 MB, used=20.00 MB, max=-1.00 B, threshold=?
+2017-01-21 14:35:07.552+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Old Gen (Heap memory): committed=189.00 MB, used=12.50 MB, max=512.00 MB, threshold=0.00 B
+2017-01-21 14:35:07.552+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating system information:
+2017-01-21 14:35:07.552+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating System: Linux; version: 4.9.4-moby; arch: amd64; cpus: 4
+2017-01-21 14:35:07.552+0000 INFO  [o.n.k.i.DiagnosticsManager] Max number of file descriptors: 1048576
+2017-01-21 14:35:07.553+0000 INFO  [o.n.k.i.DiagnosticsManager] Number of open file descriptors: 205
+2017-01-21 14:35:07.553+0000 INFO  [o.n.k.i.DiagnosticsManager] Process id: 1@9f684cc4411e
+2017-01-21 14:35:07.553+0000 INFO  [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2017-01-21 14:35:07.553+0000 INFO  [o.n.k.i.DiagnosticsManager] Local timezone: GMT
+2017-01-21 14:35:07.553+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM information:
+2017-01-21 14:35:07.553+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Name: OpenJDK 64-Bit Server VM
+2017-01-21 14:35:07.553+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2017-01-21 14:35:07.553+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Version: 25.111-b14
+2017-01-21 14:35:07.553+0000 INFO  [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2017-01-21 14:35:07.553+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Arguments: [-Xms512M, -Xmx512M, -XX:+UseG1GC, -XX:-OmitStackTraceInFastThrow, -XX:+AlwaysPreTouch, -XX:+UnlockExperimentalVMOptions, -XX:+TrustFinalNonStaticFields, -XX:+DisableExplicitGC, -Djdk.tls.ephemeralDHKeySize=2048, -Dunsupported.dbms.udc.source=tarball, -Dfile.encoding=UTF-8]
+2017-01-21 14:35:07.554+0000 INFO  [o.n.k.i.DiagnosticsManager] Java classpath:
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jetty-util-9.2.9.v20150224.jar
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-graphdb-api-3.1.0.jar
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-lucene-index-3.1.0.jar
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jackson-core-asl-1.9.13.jar
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-csv-3.1.0.jar
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/jaccess.jar
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jetty-server-9.2.9.v20150224.jar
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/scala-reflect-2.11.8.jar
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/commons-io-2.4.jar
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/concurrentlinkedhashmap-lru-1.4.2.jar
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jetty-io-9.2.9.v20150224.jar
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-1.8-openjdk/jre/lib/jce.jar
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/commons-beanutils-1.8.3.jar
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jersey-core-1.19.jar
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-io-3.1.0.jar
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-browser-2.0.0-M10.jar
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-shell-3.1.0.jar
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/commons-configuration-1.10.jar
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/sunec.jar
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-codegen-3.1.0.jar
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/lucene-codecs-5.5.0.jar
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-1.8-openjdk/jre/classes
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-collections-3.1.0.jar
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-consistency-check-3.1.0.jar
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-resource-3.1.0.jar
+2017-01-21 14:35:07.564+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/server-api-3.1.0.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/bcprov-jdk15on-1.53.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/javax.servlet-api-3.1.0.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/commons-digester-2.1.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-1.8-openjdk/jre/lib/rt.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/localedata.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-primitive-collections-3.1.0.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-cypher-3.1.0.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/plugins/
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/sunjce_provider.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/commons-lang-2.6.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-server-3.1.0.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jetty-servlet-9.2.9.v20150224.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/rhino-1.7R4.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jetty-http-9.2.9.v20150224.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/commons-lang3-3.3.2.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/nashorn.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/netty-all-4.1.6.Final.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-cypher-frontend-2.3-2.3.7.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/scala-library-2.11.8.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/lucene-queryparser-5.5.0.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jetty-security-9.2.9.v20150224.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/dnsns.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-cypher-compiler-3.1-3.1.0.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-cypher-frontend-3.0-3.0.7.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-1.8-openjdk/jre/lib/jfr.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jline-2.12.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jersey-server-1.19.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-security-3.1.0.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/conf/
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/sunpkcs11.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-import-tool-3.1.0.jar
+2017-01-21 14:35:07.565+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/bcpkix-jdk15on-1.53.jar
+2017-01-21 14:35:07.566+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/commons-compress-1.12.jar
+2017-01-21 14:35:07.566+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/opencsv-2.3.jar
+2017-01-21 14:35:07.566+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-graph-algo-3.1.0.jar
+2017-01-21 14:35:07.566+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/parboiled-scala_2.11-1.1.7.jar
+2017-01-21 14:35:07.566+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/caffeine-2.3.3.jar
+2017-01-21 14:35:07.566+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-cypher-compiler-3.0-3.0.7.jar
+2017-01-21 14:35:07.566+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jersey-servlet-1.19.jar
+2017-01-21 14:35:07.566+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-cypher-frontend-3.1-3.1.0.jar
+2017-01-21 14:35:07.566+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/lucene-analyzers-common-5.5.0.jar
+2017-01-21 14:35:07.566+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-command-line-3.1.0.jar
+2017-01-21 14:35:07.566+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-jmx-3.1.0.jar
+2017-01-21 14:35:07.566+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-cypher-compiler-2.3-2.3.7.jar
+2017-01-21 14:35:07.566+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/lucene-core-5.5.0.jar
+2017-01-21 14:35:07.566+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-1.8-openjdk/jre/lib/resources.jar
+2017-01-21 14:35:07.566+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-logging-3.1.0.jar
+2017-01-21 14:35:07.566+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-1.8-openjdk/jre/lib/charsets.jar
+2017-01-21 14:35:07.566+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jetty-webapp-9.2.9.v20150224.jar
+2017-01-21 14:35:07.566+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-bolt-3.1.0.jar
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jackson-mapper-asl-1.9.13.jar
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-udc-3.1.0.jar
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jetty-xml-9.2.9.v20150224.jar
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jackson-jaxrs-1.9.13.jar
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/zipfs.jar
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-unsafe-3.1.0.jar
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-dbms-3.1.0.jar
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/plugins/*
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/cldrdata.jar
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jsr311-api-1.1.2.r612.jar
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/asm-5.0.4.jar
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jersey-multipart-1.19.jar
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-common-3.1.0.jar
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-1.8-openjdk/jre/lib/jsse.jar
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-1.8-openjdk/jre/lib/sunrsasign.jar
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-kernel-3.1.0.jar
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-lucene-upgrade-3.1.0.jar
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-graph-matching-3.1.0.jar
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/commons-logging-1.1.1.jar
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/parboiled-core-1.1.7.jar
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/mimepull-1.9.3.jar
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager] Library path:
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib/jvm/java-1.8-openjdk/lib/amd64
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/java/packages/lib/amd64
+2017-01-21 14:35:07.567+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib64
+2017-01-21 14:35:07.568+0000 INFO  [o.n.k.i.DiagnosticsManager] /lib64
+2017-01-21 14:35:07.568+0000 INFO  [o.n.k.i.DiagnosticsManager] /lib
+2017-01-21 14:35:07.568+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib
+2017-01-21 14:35:07.568+0000 INFO  [o.n.k.i.DiagnosticsManager] System.properties:
+2017-01-21 14:35:07.568+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64
+2017-01-21 14:35:07.568+0000 INFO  [o.n.k.i.DiagnosticsManager] path.separator = :
+2017-01-21 14:35:07.568+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2017-01-21 14:35:07.568+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country = US
+2017-01-21 14:35:07.568+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2017-01-21 14:35:07.568+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.os.patch.level = unknown
+2017-01-21 14:35:07.568+0000 INFO  [o.n.k.i.DiagnosticsManager] user.dir = /var/lib/neo4j
+2017-01-21 14:35:07.568+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2017-01-21 14:35:07.568+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.nio.ch.bugLevel = 
+2017-01-21 14:35:07.568+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.udc.source = tarball
+2017-01-21 14:35:07.568+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2017-01-21 14:35:07.568+0000 INFO  [o.n.k.i.DiagnosticsManager] user.home = /root
+2017-01-21 14:35:07.568+0000 INFO  [o.n.k.i.DiagnosticsManager] user.timezone = GMT
+2017-01-21 14:35:07.568+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
+2017-01-21 14:35:07.568+0000 INFO  [o.n.k.i.DiagnosticsManager] user.name = root
+2017-01-21 14:35:07.568+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.command = org.neo4j.server.CommunityEntryPoint --home-dir=/var/lib/neo4j --config-dir=/var/lib/neo4j/conf
+2017-01-21 14:35:07.568+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2017-01-21 14:35:07.568+0000 INFO  [o.n.k.i.DiagnosticsManager] user.language = en
+2017-01-21 14:35:07.568+0000 INFO  [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.awt.X11.XToolkit
+2017-01-21 14:35:07.568+0000 INFO  [o.n.k.i.DiagnosticsManager] jdk.tls.ephemeralDHKeySize = 2048
+2017-01-21 14:35:07.568+0000 INFO  [o.n.k.i.DiagnosticsManager] file.separator = /
+2017-01-21 14:35:07.569+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2017-01-21 14:35:07.569+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2017-01-21 14:35:07.569+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = 
+2017-01-21 14:35:07.569+0000 INFO  [o.n.k.i.DiagnosticsManager] Linux scheduler information:
+2017-01-21 14:35:07.570+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:07.570+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:07.570+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:07.571+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:07.571+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:07.571+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:07.571+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:07.571+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:07.571+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:07.572+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:07.572+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:07.572+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:07.572+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:07.573+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:07.573+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:07.573+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:07.573+0000 INFO  [o.n.k.i.DiagnosticsManager] noop [deadline] cfq 
+2017-01-21 14:35:07.574+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:07.574+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:07.574+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:07.574+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:07.575+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:07.575+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:07.575+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:07.575+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:07.575+0000 INFO  [o.n.k.i.DiagnosticsManager] Network information:
+2017-01-21 14:35:07.575+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface eth0:
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:42:acff:fe11:2%eth0
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 172.17.0.2
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface lo:
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1%lo
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.7
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]   NodeStore v0.A.7
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyIndexStore v0.A.7
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.7
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyStore v0.A.7
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipStore v0.A.7
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore v0.A.7
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]   LabelTokenStore v0.A.7
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]   SchemaStore v0.A.7
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore v0.A.7
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]   NeoStore v0.A.7
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]   NodeStore: used=0 high=-1
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyIndexStore: used=0 high=-1
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2017-01-21 14:35:07.576+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyStore: used=0 high=-1
+2017-01-21 14:35:07.577+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipStore: used=0 high=-1
+2017-01-21 14:35:07.577+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2017-01-21 14:35:07.577+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore: used=0 high=-1
+2017-01-21 14:35:07.577+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2017-01-21 14:35:07.578+0000 INFO  [o.n.k.i.DiagnosticsManager]   LabelTokenStore: used=0 high=-1
+2017-01-21 14:35:07.578+0000 INFO  [o.n.k.i.DiagnosticsManager]   SchemaStore: used=1 high=0
+2017-01-21 14:35:07.578+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
+2017-01-21 14:35:07.578+0000 INFO  [o.n.k.i.DiagnosticsManager]   NeoStore: used=15 high=14
+2017-01-21 14:35:07.578+0000 INFO  [o.n.k.i.DiagnosticsManager] Neostore records:
+2017-01-21 14:35:07.579+0000 INFO  [o.n.k.i.DiagnosticsManager] TIME (Creation time): 1485005066572
+2017-01-21 14:35:07.579+0000 INFO  [o.n.k.i.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): 7213731142624500577
+2017-01-21 14:35:07.579+0000 INFO  [o.n.k.i.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2017-01-21 14:35:07.579+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 1
+2017-01-21 14:35:07.579+0000 INFO  [o.n.k.i.DiagnosticsManager] STORE_VERSION (Store format version): 15531981201765894
+2017-01-21 14:35:07.579+0000 INFO  [o.n.k.i.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2017-01-21 14:35:07.579+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2017-01-21 14:35:07.579+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2017-01-21 14:35:07.579+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1485005066572
+2017-01-21 14:35:07.579+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): 0
+2017-01-21 14:35:07.579+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2017-01-21 14:35:07.579+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2017-01-21 14:35:07.579+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 16
+2017-01-21 14:35:07.579+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 0
+2017-01-21 14:35:07.579+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
+2017-01-21 14:35:07.579+0000 INFO  [o.n.k.i.DiagnosticsManager] Transaction log:
+2017-01-21 14:35:07.585+0000 INFO  [o.n.k.i.DiagnosticsManager] Oldest transaction 2 found in log with version 0
+2017-01-21 14:35:07.586+0000 INFO  [o.n.k.i.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 249803833344 / 41346015232 / 16
+Storage files: (filename : modification date - size)
+2017-01-21 14:35:07.599+0000 INFO  [o.n.k.i.DiagnosticsManager]   index:
+2017-01-21 14:35:07.601+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-01-21T13:24:26+0000 - 0.00 B
+2017-01-21 14:35:07.602+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore: 2017-01-21T13:24:26+0000 - 8.00 kB
+2017-01-21 14:35:07.604+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.counts.db.a: 2017-01-21T13:24:27+0000 - 96.00 B
+2017-01-21 14:35:07.605+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.id: 2017-01-23T14:45:33+0000 - 9.00 B
+2017-01-21 14:35:07.607+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db: 2017-01-21T13:24:26+0000 - 0.00 B
+2017-01-21 14:35:07.608+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2017-01-23T14:45:33+0000 - 9.00 B
+2017-01-21 14:35:07.609+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2017-01-21T13:24:26+0000 - 8.00 kB
+2017-01-21 14:35:07.611+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2017-01-23T14:45:33+0000 - 9.00 B
+2017-01-21 14:35:07.612+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db: 2017-01-21T13:24:26+0000 - 0.00 B
+2017-01-21 14:35:07.614+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.id: 2017-01-23T14:45:32+0000 - 9.00 B
+2017-01-21 14:35:07.616+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels: 2017-01-21T13:24:26+0000 - 8.00 kB
+2017-01-21 14:35:07.618+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2017-01-23T14:45:32+0000 - 9.00 B
+2017-01-21 14:35:07.620+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db: 2017-01-21T13:24:26+0000 - 0.00 B
+2017-01-21 14:35:07.621+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays: 2017-01-21T13:24:26+0000 - 8.00 kB
+2017-01-21 14:35:07.622+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2017-01-23T14:45:33+0000 - 9.00 B
+2017-01-21 14:35:07.624+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.id: 2017-01-23T14:45:33+0000 - 9.00 B
+2017-01-21 14:35:07.626+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index: 2017-01-21T13:24:26+0000 - 0.00 B
+2017-01-21 14:35:07.627+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.id: 2017-01-23T14:45:32+0000 - 9.00 B
+2017-01-21 14:35:07.628+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2017-01-21T13:24:26+0000 - 8.00 kB
+2017-01-21 14:35:07.630+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2017-01-23T14:45:32+0000 - 9.00 B
+2017-01-21 14:35:07.632+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings: 2017-01-21T13:24:26+0000 - 8.00 kB
+2017-01-21 14:35:07.633+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2017-01-23T14:45:32+0000 - 9.00 B
+2017-01-21 14:35:07.635+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2017-01-21T13:24:26+0000 - 8.00 kB
+2017-01-21 14:35:07.637+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2017-01-23T14:45:33+0000 - 9.00 B
+2017-01-21 14:35:07.639+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db: 2017-01-21T13:24:26+0000 - 0.00 B
+2017-01-21 14:35:07.641+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db.id: 2017-01-23T14:45:33+0000 - 9.00 B
+2017-01-21 14:35:07.642+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db: 2017-01-21T13:24:26+0000 - 0.00 B
+2017-01-21 14:35:07.644+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2017-01-23T14:45:33+0000 - 9.00 B
+2017-01-21 14:35:07.646+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2017-01-21T13:24:26+0000 - 8.00 kB
+2017-01-21 14:35:07.648+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2017-01-23T14:45:33+0000 - 9.00 B
+2017-01-21 14:35:07.649+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db: 2017-01-21T13:24:26+0000 - 8.00 kB
+2017-01-21 14:35:07.651+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db.id: 2017-01-23T14:45:33+0000 - 9.00 B
+2017-01-21 14:35:07.653+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.transaction.db.0: 2017-01-23T14:51:41+0000 - 106.00 B
+2017-01-21 14:35:07.654+0000 INFO  [o.n.k.i.DiagnosticsManager]   schema:
+2017-01-21 14:35:07.656+0000 INFO  [o.n.k.i.DiagnosticsManager]     label:
+2017-01-21 14:35:07.660+0000 INFO  [o.n.k.i.DiagnosticsManager]       lucene:
+2017-01-21 14:35:07.662+0000 INFO  [o.n.k.i.DiagnosticsManager]         labelStore:
+2017-01-21 14:35:07.665+0000 INFO  [o.n.k.i.DiagnosticsManager]           1:
+2017-01-21 14:35:07.670+0000 INFO  [o.n.k.i.DiagnosticsManager]             segments_1: 2017-01-21T13:25:00+0000 - 71.00 B
+2017-01-21 14:35:07.671+0000 INFO  [o.n.k.i.DiagnosticsManager]             write.lock: 2017-01-21T13:24:26+0000 - 0.00 B
+2017-01-21 14:35:07.672+0000 INFO  [o.n.k.i.DiagnosticsManager]           - Total: 2017-01-21T13:25:00+0000 - 71.00 B
+2017-01-21 14:35:07.674+0000 INFO  [o.n.k.i.DiagnosticsManager]           failure-message: 2017-01-21T13:24:26+0000 - 16.00 kB
+2017-01-21 14:35:07.674+0000 INFO  [o.n.k.i.DiagnosticsManager]         - Total: 2017-01-21T13:24:26+0000 - 16.07 kB
+2017-01-21 14:35:07.675+0000 INFO  [o.n.k.i.DiagnosticsManager]       - Total: 2017-01-21T13:24:26+0000 - 16.07 kB
+2017-01-21 14:35:07.675+0000 INFO  [o.n.k.i.DiagnosticsManager]     - Total: 2017-01-21T13:24:26+0000 - 16.07 kB
+2017-01-21 14:35:07.676+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-01-21T13:24:26+0000 - 16.07 kB
+2017-01-21 14:35:07.679+0000 INFO  [o.n.k.i.DiagnosticsManager]   store_lock: 2017-01-21T13:24:26+0000 - 0.00 B
+2017-01-21 14:35:07.679+0000 INFO  [o.n.k.i.l.StoreLogService] Rotated internal log file
+2017-01-21 14:35:07.688+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
+2017-01-21 14:35:07.688+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
+2017-01-21 14:35:25.848+0000 INFO  [o.n.k.i.f.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2017-01-21 14:35:26.032+0000 INFO  [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2017-01-21 14:35:26.078+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2017-01-21 14:35:26.078+0000 INFO  [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2017-01-21 14:35:26.079+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.http.enabled=true
+2017-01-21 14:35:26.079+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.auth_enabled=true
+2017-01-21 14:35:26.079+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.http.listen_address=0.0.0.0:7474
+2017-01-21 14:35:26.079+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=/var/lib/neo4j
+2017-01-21 14:35:26.079+0000 INFO  [o.n.k.i.DiagnosticsManager] causal_clustering.raft_advertised_address=0cdb338f4e40:7000
+2017-01-21 14:35:26.079+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.directories.import=import
+2017-01-21 14:35:26.079+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.memory.heap.initial_size=512M
+2017-01-21 14:35:26.079+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.https.enabled=true
+2017-01-21 14:35:26.079+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.jvm.additional=-Dunsupported.dbms.udc.source=tarball
+2017-01-21 14:35:26.080+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.tx_log.rotation.retention_policy=100M size
+2017-01-21 14:35:26.080+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.memory.heap.max_size=512M
+2017-01-21 14:35:26.080+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connectors.default_listen_address=0.0.0.0
+2017-01-21 14:35:26.080+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.windows_service_name=neo4j
+2017-01-21 14:35:26.080+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.https.listen_address=0.0.0.0:7473
+2017-01-21 14:35:26.080+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.bolt.listen_address=0.0.0.0:7687
+2017-01-21 14:35:26.080+0000 INFO  [o.n.k.i.DiagnosticsManager] causal_clustering.transaction_advertised_address=0cdb338f4e40:6000
+2017-01-21 14:35:26.080+0000 INFO  [o.n.k.i.DiagnosticsManager] causal_clustering.discovery_advertised_address=0cdb338f4e40:5000
+2017-01-21 14:35:26.081+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.memory.pagecache.size=512M
+2017-01-21 14:35:26.081+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.edition=community
+2017-01-21 14:35:26.081+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.bolt.enabled=true
+2017-01-21 14:35:26.081+0000 INFO  [o.n.k.i.DiagnosticsManager] wrapper.java.additional=-Dneo4j.ext.udc.source=docker
+2017-01-21 14:35:26.081+0000 INFO  [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2017-01-21 14:35:26.081+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2017-01-21 14:35:26.081+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2017-01-21 14:35:26.081+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2017-01-21 14:35:26.081+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2017-01-21 14:35:26.082+0000 INFO  [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2017-01-21 14:35:26.082+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2017-01-21 14:35:26.082+0000 INFO  [o.n.k.i.DiagnosticsManager] CLASSPATH
+2017-01-21 14:35:26.082+0000 INFO  [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2017-01-21 14:35:26.082+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2017-01-21 14:35:26.082+0000 INFO  [o.n.k.i.DiagnosticsManager] LINUX_SCHEDULERS
+2017-01-21 14:35:26.082+0000 INFO  [o.n.k.i.DiagnosticsManager] NETWORK
+2017-01-21 14:35:26.082+0000 INFO  [o.n.k.i.DiagnosticsManager] System memory information:
+2017-01-21 14:35:26.091+0000 INFO  [o.n.k.i.DiagnosticsManager] Total Physical memory: 1.95 GB
+2017-01-21 14:35:26.091+0000 INFO  [o.n.k.i.DiagnosticsManager] Free Physical memory: 907.88 MB
+2017-01-21 14:35:26.091+0000 INFO  [o.n.k.i.DiagnosticsManager] Committed virtual memory: 1.94 GB
+2017-01-21 14:35:26.092+0000 INFO  [o.n.k.i.DiagnosticsManager] Total swap space: 3.90 GB
+2017-01-21 14:35:26.092+0000 INFO  [o.n.k.i.DiagnosticsManager] Free swap space: 3.90 GB
+2017-01-21 14:35:26.092+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM memory information:
+2017-01-21 14:35:26.092+0000 INFO  [o.n.k.i.DiagnosticsManager] Free  memory: 467.21 MB
+2017-01-21 14:35:26.092+0000 INFO  [o.n.k.i.DiagnosticsManager] Total memory: 512.00 MB
+2017-01-21 14:35:26.093+0000 INFO  [o.n.k.i.DiagnosticsManager] Max   memory: 512.00 MB
+2017-01-21 14:35:26.097+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: G1 Young Generation: [G1 Eden Space, G1 Survivor Space]
+2017-01-21 14:35:26.098+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: G1 Old Generation: [G1 Eden Space, G1 Survivor Space, G1 Old Gen]
+2017-01-21 14:35:26.099+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=5.06 MB, used=5.01 MB, max=240.00 MB, threshold=0.00 B
+2017-01-21 14:35:26.099+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=12.75 MB, used=12.27 MB, max=-1.00 B, threshold=0.00 B
+2017-01-21 14:35:26.099+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=1.75 MB, used=1.60 MB, max=1.00 GB, threshold=0.00 B
+2017-01-21 14:35:26.100+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Eden Space (Heap memory): committed=43.00 MB, used=36.00 MB, max=-1.00 B, threshold=?
+2017-01-21 14:35:26.100+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Survivor Space (Heap memory): committed=3.00 MB, used=3.00 MB, max=-1.00 B, threshold=?
+2017-01-21 14:35:26.101+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Old Gen (Heap memory): committed=466.00 MB, used=5.29 MB, max=512.00 MB, threshold=0.00 B
+2017-01-21 14:35:26.101+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating system information:
+2017-01-21 14:35:26.102+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating System: Linux; version: 4.9.4-moby; arch: amd64; cpus: 4
+2017-01-21 14:35:26.102+0000 INFO  [o.n.k.i.DiagnosticsManager] Max number of file descriptors: 1048576
+2017-01-21 14:35:26.102+0000 INFO  [o.n.k.i.DiagnosticsManager] Number of open file descriptors: 93
+2017-01-21 14:35:26.106+0000 INFO  [o.n.k.i.DiagnosticsManager] Process id: 1@0cdb338f4e40
+2017-01-21 14:35:26.106+0000 INFO  [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2017-01-21 14:35:26.107+0000 INFO  [o.n.k.i.DiagnosticsManager] Local timezone: GMT
+2017-01-21 14:35:26.107+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM information:
+2017-01-21 14:35:26.107+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Name: OpenJDK 64-Bit Server VM
+2017-01-21 14:35:26.107+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2017-01-21 14:35:26.107+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Version: 25.111-b14
+2017-01-21 14:35:26.108+0000 INFO  [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2017-01-21 14:35:26.109+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Arguments: [-Xms512M, -Xmx512M, -XX:+UseG1GC, -XX:-OmitStackTraceInFastThrow, -XX:+AlwaysPreTouch, -XX:+UnlockExperimentalVMOptions, -XX:+TrustFinalNonStaticFields, -XX:+DisableExplicitGC, -Djdk.tls.ephemeralDHKeySize=2048, -Dunsupported.dbms.udc.source=tarball, -Dfile.encoding=UTF-8]
+2017-01-21 14:35:26.109+0000 INFO  [o.n.k.i.DiagnosticsManager] Java classpath:
+2017-01-21 14:35:26.113+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jetty-util-9.2.9.v20150224.jar
+2017-01-21 14:35:26.114+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-graphdb-api-3.1.0.jar
+2017-01-21 14:35:26.114+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-lucene-index-3.1.0.jar
+2017-01-21 14:35:26.114+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jackson-core-asl-1.9.13.jar
+2017-01-21 14:35:26.114+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-csv-3.1.0.jar
+2017-01-21 14:35:26.114+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/jaccess.jar
+2017-01-21 14:35:26.114+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jetty-server-9.2.9.v20150224.jar
+2017-01-21 14:35:26.115+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/scala-reflect-2.11.8.jar
+2017-01-21 14:35:26.115+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/commons-io-2.4.jar
+2017-01-21 14:35:26.115+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/concurrentlinkedhashmap-lru-1.4.2.jar
+2017-01-21 14:35:26.115+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jetty-io-9.2.9.v20150224.jar
+2017-01-21 14:35:26.115+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-1.8-openjdk/jre/lib/jce.jar
+2017-01-21 14:35:26.115+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/commons-beanutils-1.8.3.jar
+2017-01-21 14:35:26.115+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jersey-core-1.19.jar
+2017-01-21 14:35:26.115+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-io-3.1.0.jar
+2017-01-21 14:35:26.115+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-browser-2.0.0-M10.jar
+2017-01-21 14:35:26.115+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-shell-3.1.0.jar
+2017-01-21 14:35:26.115+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/commons-configuration-1.10.jar
+2017-01-21 14:35:26.115+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/sunec.jar
+2017-01-21 14:35:26.115+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-codegen-3.1.0.jar
+2017-01-21 14:35:26.115+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/lucene-codecs-5.5.0.jar
+2017-01-21 14:35:26.116+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-1.8-openjdk/jre/classes
+2017-01-21 14:35:26.116+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-collections-3.1.0.jar
+2017-01-21 14:35:26.116+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-consistency-check-3.1.0.jar
+2017-01-21 14:35:26.116+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-resource-3.1.0.jar
+2017-01-21 14:35:26.116+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/server-api-3.1.0.jar
+2017-01-21 14:35:26.116+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/bcprov-jdk15on-1.53.jar
+2017-01-21 14:35:26.116+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/javax.servlet-api-3.1.0.jar
+2017-01-21 14:35:26.116+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/commons-digester-2.1.jar
+2017-01-21 14:35:26.116+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-1.8-openjdk/jre/lib/rt.jar
+2017-01-21 14:35:26.116+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/localedata.jar
+2017-01-21 14:35:26.116+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-primitive-collections-3.1.0.jar
+2017-01-21 14:35:26.116+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-cypher-3.1.0.jar
+2017-01-21 14:35:26.116+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/plugins/
+2017-01-21 14:35:26.116+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/sunjce_provider.jar
+2017-01-21 14:35:26.116+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/commons-lang-2.6.jar
+2017-01-21 14:35:26.116+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-server-3.1.0.jar
+2017-01-21 14:35:26.116+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jetty-servlet-9.2.9.v20150224.jar
+2017-01-21 14:35:26.117+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/rhino-1.7R4.jar
+2017-01-21 14:35:26.117+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jetty-http-9.2.9.v20150224.jar
+2017-01-21 14:35:26.117+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/commons-lang3-3.3.2.jar
+2017-01-21 14:35:26.117+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/nashorn.jar
+2017-01-21 14:35:26.117+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/netty-all-4.1.6.Final.jar
+2017-01-21 14:35:26.117+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-cypher-frontend-2.3-2.3.7.jar
+2017-01-21 14:35:26.117+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/scala-library-2.11.8.jar
+2017-01-21 14:35:26.117+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/lucene-queryparser-5.5.0.jar
+2017-01-21 14:35:26.117+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jetty-security-9.2.9.v20150224.jar
+2017-01-21 14:35:26.117+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/dnsns.jar
+2017-01-21 14:35:26.117+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-cypher-compiler-3.1-3.1.0.jar
+2017-01-21 14:35:26.117+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-cypher-frontend-3.0-3.0.7.jar
+2017-01-21 14:35:26.117+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-1.8-openjdk/jre/lib/jfr.jar
+2017-01-21 14:35:26.117+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jline-2.12.jar
+2017-01-21 14:35:26.117+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jersey-server-1.19.jar
+2017-01-21 14:35:26.117+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-security-3.1.0.jar
+2017-01-21 14:35:26.117+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/conf/
+2017-01-21 14:35:26.118+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/sunpkcs11.jar
+2017-01-21 14:35:26.118+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-import-tool-3.1.0.jar
+2017-01-21 14:35:26.118+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/bcpkix-jdk15on-1.53.jar
+2017-01-21 14:35:26.118+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/commons-compress-1.12.jar
+2017-01-21 14:35:26.118+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/opencsv-2.3.jar
+2017-01-21 14:35:26.118+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-graph-algo-3.1.0.jar
+2017-01-21 14:35:26.118+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/parboiled-scala_2.11-1.1.7.jar
+2017-01-21 14:35:26.118+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/caffeine-2.3.3.jar
+2017-01-21 14:35:26.118+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-cypher-compiler-3.0-3.0.7.jar
+2017-01-21 14:35:26.118+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jersey-servlet-1.19.jar
+2017-01-21 14:35:26.118+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-cypher-frontend-3.1-3.1.0.jar
+2017-01-21 14:35:26.118+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/lucene-analyzers-common-5.5.0.jar
+2017-01-21 14:35:26.119+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-command-line-3.1.0.jar
+2017-01-21 14:35:26.119+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-jmx-3.1.0.jar
+2017-01-21 14:35:26.119+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-cypher-compiler-2.3-2.3.7.jar
+2017-01-21 14:35:26.119+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/lucene-core-5.5.0.jar
+2017-01-21 14:35:26.119+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-1.8-openjdk/jre/lib/resources.jar
+2017-01-21 14:35:26.119+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-logging-3.1.0.jar
+2017-01-21 14:35:26.119+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-1.8-openjdk/jre/lib/charsets.jar
+2017-01-21 14:35:26.119+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jetty-webapp-9.2.9.v20150224.jar
+2017-01-21 14:35:26.119+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-bolt-3.1.0.jar
+2017-01-21 14:35:26.119+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jackson-mapper-asl-1.9.13.jar
+2017-01-21 14:35:26.119+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-udc-3.1.0.jar
+2017-01-21 14:35:26.119+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jetty-xml-9.2.9.v20150224.jar
+2017-01-21 14:35:26.120+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jackson-jaxrs-1.9.13.jar
+2017-01-21 14:35:26.120+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/zipfs.jar
+2017-01-21 14:35:26.120+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-unsafe-3.1.0.jar
+2017-01-21 14:35:26.120+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-dbms-3.1.0.jar
+2017-01-21 14:35:26.120+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/plugins/*
+2017-01-21 14:35:26.120+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/cldrdata.jar
+2017-01-21 14:35:26.120+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jsr311-api-1.1.2.r612.jar
+2017-01-21 14:35:26.120+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/asm-5.0.4.jar
+2017-01-21 14:35:26.120+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/jersey-multipart-1.19.jar
+2017-01-21 14:35:26.120+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-common-3.1.0.jar
+2017-01-21 14:35:26.120+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-1.8-openjdk/jre/lib/jsse.jar
+2017-01-21 14:35:26.120+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-1.8-openjdk/jre/lib/sunrsasign.jar
+2017-01-21 14:35:26.120+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-kernel-3.1.0.jar
+2017-01-21 14:35:26.120+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-lucene-upgrade-3.1.0.jar
+2017-01-21 14:35:26.120+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/neo4j-graph-matching-3.1.0.jar
+2017-01-21 14:35:26.120+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/commons-logging-1.1.1.jar
+2017-01-21 14:35:26.120+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/parboiled-core-1.1.7.jar
+2017-01-21 14:35:26.121+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/var/lib/neo4j/lib/mimepull-1.9.3.jar
+2017-01-21 14:35:26.121+0000 INFO  [o.n.k.i.DiagnosticsManager] Library path:
+2017-01-21 14:35:26.121+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server
+2017-01-21 14:35:26.121+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64
+2017-01-21 14:35:26.121+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib/jvm/java-1.8-openjdk/lib/amd64
+2017-01-21 14:35:26.121+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/java/packages/lib/amd64
+2017-01-21 14:35:26.121+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib64
+2017-01-21 14:35:26.121+0000 INFO  [o.n.k.i.DiagnosticsManager] /lib64
+2017-01-21 14:35:26.122+0000 INFO  [o.n.k.i.DiagnosticsManager] /lib
+2017-01-21 14:35:26.122+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib
+2017-01-21 14:35:26.122+0000 INFO  [o.n.k.i.DiagnosticsManager] System.properties:
+2017-01-21 14:35:26.122+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64
+2017-01-21 14:35:26.122+0000 INFO  [o.n.k.i.DiagnosticsManager] path.separator = :
+2017-01-21 14:35:26.122+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2017-01-21 14:35:26.122+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country = US
+2017-01-21 14:35:26.122+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2017-01-21 14:35:26.123+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.os.patch.level = unknown
+2017-01-21 14:35:26.123+0000 INFO  [o.n.k.i.DiagnosticsManager] user.dir = /var/lib/neo4j
+2017-01-21 14:35:26.123+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2017-01-21 14:35:26.123+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.udc.source = tarball
+2017-01-21 14:35:26.123+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2017-01-21 14:35:26.123+0000 INFO  [o.n.k.i.DiagnosticsManager] user.home = /root
+2017-01-21 14:35:26.123+0000 INFO  [o.n.k.i.DiagnosticsManager] user.timezone = GMT
+2017-01-21 14:35:26.123+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
+2017-01-21 14:35:26.123+0000 INFO  [o.n.k.i.DiagnosticsManager] user.name = root
+2017-01-21 14:35:26.123+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.command = org.neo4j.server.CommunityEntryPoint --home-dir=/var/lib/neo4j --config-dir=/var/lib/neo4j/conf
+2017-01-21 14:35:26.123+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2017-01-21 14:35:26.123+0000 INFO  [o.n.k.i.DiagnosticsManager] user.language = en
+2017-01-21 14:35:26.123+0000 INFO  [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.awt.X11.XToolkit
+2017-01-21 14:35:26.123+0000 INFO  [o.n.k.i.DiagnosticsManager] jdk.tls.ephemeralDHKeySize = 2048
+2017-01-21 14:35:26.124+0000 INFO  [o.n.k.i.DiagnosticsManager] file.separator = /
+2017-01-21 14:35:26.124+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2017-01-21 14:35:26.124+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2017-01-21 14:35:26.124+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = 
+2017-01-21 14:35:26.124+0000 INFO  [o.n.k.i.DiagnosticsManager] Linux scheduler information:
+2017-01-21 14:35:26.147+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:26.147+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:26.148+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:26.148+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:26.148+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:26.148+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:26.149+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:26.149+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:26.149+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:26.149+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:26.150+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:26.150+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:26.150+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:26.151+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:26.151+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:26.151+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:26.151+0000 INFO  [o.n.k.i.DiagnosticsManager] noop [deadline] cfq 
+2017-01-21 14:35:26.151+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:26.152+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:26.152+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:26.152+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:26.152+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:26.153+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:26.153+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:26.153+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-01-21 14:35:26.153+0000 INFO  [o.n.k.i.DiagnosticsManager] Network information:
+2017-01-21 14:35:26.155+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface eth0:
+2017-01-21 14:35:26.156+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:42:acff:fe11:2%eth0
+2017-01-21 14:35:26.156+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 172.17.0.2
+2017-01-21 14:35:26.156+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface lo:
+2017-01-21 14:35:26.156+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1%lo
+2017-01-21 14:35:26.156+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2017-01-21 14:35:26.156+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2017-01-21 14:35:26.536+0000 INFO  [o.n.b.v.r.WorkerFactory] Bolt Server extension loaded.
+2017-01-21 14:35:26.538+0000 INFO  [o.n.b.v.r.WorkerFactory] Bolt enabled on 0.0.0.0:7687.
+2017-01-21 14:35:26.719+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_0[v0.A.7] record format from store /var/lib/neo4j/data/databases/graph.db
+2017-01-21 14:35:26.789+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_0[v0.A.7] record format from store /var/lib/neo4j/data/databases/graph.db
+2017-01-21 14:35:26.791+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Format not configured. Selected format from the store: RecordFormat:StandardV3_0[v0.A.7]
+2017-01-21 14:35:27.647+0000 INFO  [o.n.k.i.DatabaseHealth] Database health set to OK
+2017-01-21 14:35:28.435+0000 INFO  [o.n.k.AvailabilityGuard] Fulfilling of requirement makes database available: Database available
+2017-01-21 14:35:28.437+0000 INFO  [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now ready
+2017-01-21 14:35:28.440+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2017-01-21 14:35:28.442+0000 INFO  [o.n.k.i.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1485005066572, randomId=7213731142624500577, storeVersion=15531981201765894, upgradeTime=1485005066572, upgradeId=1}
+2017-01-21 14:35:28.443+0000 INFO  [o.n.k.i.DiagnosticsManager] Kernel version: 3.1.0,16a782b42d76ca37db72958eb2565cf6aa671a29
+2017-01-21 14:35:28.445+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2017-01-21 14:35:28.449+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2017-01-21 14:35:28.450+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2017-01-21 14:35:28.452+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2017-01-21 14:35:28.453+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.7
+2017-01-21 14:35:28.454+0000 INFO  [o.n.k.i.DiagnosticsManager]   NodeStore v0.A.7
+2017-01-21 14:35:28.455+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-01-21 14:35:28.460+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyIndexStore v0.A.7
+2017-01-21 14:35:28.463+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-01-21 14:35:28.478+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.7
+2017-01-21 14:35:28.480+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyStore v0.A.7
+2017-01-21 14:35:28.481+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipStore v0.A.7
+2017-01-21 14:35:28.482+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-01-21 14:35:28.483+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore v0.A.7
+2017-01-21 14:35:28.484+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-01-21 14:35:28.485+0000 INFO  [o.n.k.i.DiagnosticsManager]   LabelTokenStore v0.A.7
+2017-01-21 14:35:28.487+0000 INFO  [o.n.k.i.DiagnosticsManager]   SchemaStore v0.A.7
+2017-01-21 14:35:28.488+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore v0.A.7
+2017-01-21 14:35:28.489+0000 INFO  [o.n.k.i.DiagnosticsManager]   NeoStore v0.A.7
+2017-01-21 14:35:28.490+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2017-01-21 14:35:28.491+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2017-01-21 14:35:28.492+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2017-01-21 14:35:28.493+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2017-01-21 14:35:28.495+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2017-01-21 14:35:28.496+0000 INFO  [o.n.k.i.DiagnosticsManager]   NodeStore: used=0 high=-1
+2017-01-21 14:35:28.498+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2017-01-21 14:35:28.499+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyIndexStore: used=0 high=-1
+2017-01-21 14:35:28.500+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2017-01-21 14:35:28.502+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2017-01-21 14:35:28.503+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyStore: used=0 high=-1
+2017-01-21 14:35:28.504+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipStore: used=0 high=-1
+2017-01-21 14:35:28.505+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2017-01-21 14:35:28.506+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore: used=0 high=-1
+2017-01-21 14:35:28.508+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2017-01-21 14:35:28.509+0000 INFO  [o.n.k.i.DiagnosticsManager]   LabelTokenStore: used=0 high=-1
+2017-01-21 14:35:28.510+0000 INFO  [o.n.k.i.DiagnosticsManager]   SchemaStore: used=1 high=0
+2017-01-21 14:35:28.511+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
+2017-01-21 14:35:28.512+0000 INFO  [o.n.k.i.DiagnosticsManager]   NeoStore: used=15 high=14
+2017-01-21 14:35:28.513+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2017-01-21 14:35:28.514+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2017-01-21 14:35:28.516+0000 INFO  [o.n.k.i.DiagnosticsManager] Neostore records:
+2017-01-21 14:35:28.518+0000 INFO  [o.n.k.i.DiagnosticsManager] TIME (Creation time): 1485005066572
+2017-01-21 14:35:28.519+0000 INFO  [o.n.k.i.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): 7213731142624500577
+2017-01-21 14:35:28.520+0000 INFO  [o.n.k.i.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2017-01-21 14:35:28.522+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 1
+2017-01-21 14:35:28.523+0000 INFO  [o.n.k.i.DiagnosticsManager] STORE_VERSION (Store format version): 15531981201765894
+2017-01-21 14:35:28.524+0000 INFO  [o.n.k.i.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2017-01-21 14:35:28.525+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2017-01-21 14:35:28.526+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2017-01-21 14:35:28.527+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1485005066572
+2017-01-21 14:35:28.528+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): 0
+2017-01-21 14:35:28.529+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2017-01-21 14:35:28.530+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2017-01-21 14:35:28.531+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 16
+2017-01-21 14:35:28.532+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 0
+2017-01-21 14:35:28.533+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
+2017-01-21 14:35:28.534+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2017-01-21 14:35:28.537+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2017-01-21 14:35:28.539+0000 INFO  [o.n.k.i.DiagnosticsManager] Transaction log:
+2017-01-21 14:35:28.547+0000 INFO  [o.n.k.i.DiagnosticsManager] Oldest transaction 2 found in log with version 0
+2017-01-21 14:35:28.549+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2017-01-21 14:35:28.550+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2017-01-21 14:35:28.554+0000 INFO  [o.n.k.i.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 249803833344 / 41350078464 / 16
+Storage files: (filename : modification date - size)
+2017-01-21 14:35:28.561+0000 INFO  [o.n.k.i.DiagnosticsManager]   index:
+2017-01-21 14:35:28.565+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-01-21T13:24:26+0000 - 0.00 B
+2017-01-21 14:35:28.568+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore: 2017-01-21T13:24:26+0000 - 8.00 kB
+2017-01-21 14:35:28.571+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.counts.db.a: 2017-01-21T13:24:27+0000 - 96.00 B
+2017-01-21 14:35:28.573+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.id: 2017-01-23T14:52:01+0000 - 9.00 B
+2017-01-21 14:35:28.576+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db: 2017-01-21T13:24:26+0000 - 0.00 B
+2017-01-21 14:35:28.579+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2017-01-23T14:52:01+0000 - 9.00 B
+2017-01-21 14:35:28.583+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2017-01-21T13:24:26+0000 - 8.00 kB
+2017-01-21 14:35:28.586+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2017-01-23T14:52:01+0000 - 9.00 B
+2017-01-21 14:35:28.589+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db: 2017-01-21T13:24:26+0000 - 0.00 B
+2017-01-21 14:35:28.592+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.id: 2017-01-23T14:52:00+0000 - 9.00 B
+2017-01-21 14:35:28.594+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels: 2017-01-21T13:24:26+0000 - 8.00 kB
+2017-01-21 14:35:28.597+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2017-01-23T14:52:00+0000 - 9.00 B
+2017-01-21 14:35:28.600+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db: 2017-01-21T13:24:26+0000 - 0.00 B
+2017-01-21 14:35:28.603+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays: 2017-01-21T13:24:26+0000 - 8.00 kB
+2017-01-21 14:35:28.606+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2017-01-23T14:52:00+0000 - 9.00 B
+2017-01-21 14:35:28.608+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.id: 2017-01-23T14:52:00+0000 - 9.00 B
+2017-01-21 14:35:28.611+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index: 2017-01-21T13:24:26+0000 - 0.00 B
+2017-01-21 14:35:28.614+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.id: 2017-01-23T14:52:00+0000 - 9.00 B
+2017-01-21 14:35:28.617+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2017-01-21T13:24:26+0000 - 8.00 kB
+2017-01-21 14:35:28.621+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2017-01-23T14:52:00+0000 - 9.00 B
+2017-01-21 14:35:28.624+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings: 2017-01-21T13:24:26+0000 - 8.00 kB
+2017-01-21 14:35:28.627+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2017-01-23T14:52:00+0000 - 9.00 B
+2017-01-21 14:35:28.629+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2017-01-21T13:24:26+0000 - 8.00 kB
+2017-01-21 14:35:28.632+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2017-01-23T14:52:01+0000 - 9.00 B
+2017-01-21 14:35:28.634+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db: 2017-01-21T13:24:26+0000 - 0.00 B
+2017-01-21 14:35:28.637+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db.id: 2017-01-23T14:52:00+0000 - 9.00 B
+2017-01-21 14:35:28.640+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db: 2017-01-21T13:24:26+0000 - 0.00 B
+2017-01-21 14:35:28.643+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2017-01-23T14:52:00+0000 - 9.00 B
+2017-01-21 14:35:28.646+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2017-01-21T13:24:26+0000 - 8.00 kB
+2017-01-21 14:35:28.649+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2017-01-23T14:52:00+0000 - 9.00 B
+2017-01-21 14:35:28.652+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db: 2017-01-21T13:24:26+0000 - 8.00 kB
+2017-01-21 14:35:28.654+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db.id: 2017-01-23T14:52:01+0000 - 9.00 B
+2017-01-21 14:35:28.657+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.transaction.db.0: 2017-01-23T14:51:41+0000 - 106.00 B
+2017-01-21 14:35:28.660+0000 INFO  [o.n.k.i.DiagnosticsManager]   schema:
+2017-01-21 14:35:28.663+0000 INFO  [o.n.k.i.DiagnosticsManager]     label:
+2017-01-21 14:35:28.667+0000 INFO  [o.n.k.i.DiagnosticsManager]       lucene:
+2017-01-21 14:35:28.670+0000 INFO  [o.n.k.i.DiagnosticsManager]         labelStore:
+2017-01-21 14:35:28.673+0000 INFO  [o.n.k.i.DiagnosticsManager]           1:
+2017-01-21 14:35:28.678+0000 INFO  [o.n.k.i.DiagnosticsManager]             segments_1: 2017-01-21T13:25:00+0000 - 71.00 B
+2017-01-21 14:35:28.682+0000 INFO  [o.n.k.i.DiagnosticsManager]             write.lock: 2017-01-21T13:24:26+0000 - 0.00 B
+2017-01-21 14:35:28.683+0000 INFO  [o.n.k.i.DiagnosticsManager]           - Total: 2017-01-21T13:25:00+0000 - 71.00 B
+2017-01-21 14:35:28.686+0000 INFO  [o.n.k.i.DiagnosticsManager]           failure-message: 2017-01-21T13:24:26+0000 - 16.00 kB
+2017-01-21 14:35:28.688+0000 INFO  [o.n.k.i.DiagnosticsManager]         - Total: 2017-01-21T13:24:26+0000 - 16.07 kB
+2017-01-21 14:35:28.689+0000 INFO  [o.n.k.i.DiagnosticsManager]       - Total: 2017-01-21T13:24:26+0000 - 16.07 kB
+2017-01-21 14:35:28.691+0000 INFO  [o.n.k.i.DiagnosticsManager]     - Total: 2017-01-21T13:24:26+0000 - 16.07 kB
+2017-01-21 14:35:28.695+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-01-21T13:24:26+0000 - 16.07 kB
+2017-01-21 14:35:28.698+0000 INFO  [o.n.k.i.DiagnosticsManager]   store_lock: 2017-01-21T13:24:26+0000 - 0.00 B
+2017-01-21 14:35:28.699+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2017-01-21 14:35:31.317+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED START ---
+2017-01-21 14:35:33.017+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED END ---
+2017-01-21 14:58:13.714+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1653ms.
+2017-01-21 14:58:22.557+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1606ms.
+2017-01-21 15:34:02.965+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1747ms.
+2017-01-21 15:39:54.762+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1628ms.
+2017-01-23 20:35:25.575+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1741ms.
+2017-01-23 20:43:56.031+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1611ms.
+2017-01-24 00:06:40.500+0000 INFO  [o.n.k.i.f.GraphDatabaseFacadeFactory] Shutdown started
+2017-01-24 00:06:40.506+0000 INFO  [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now unavailable
+2017-01-24 00:06:40.528+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [1]:  Starting check pointing...
+2017-01-24 00:06:40.529+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [1]:  Starting store flush...
+2017-01-24 00:06:40.532+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [1]:  Store flush completed
+2017-01-24 00:06:40.532+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [1]:  Starting appending check point entry into the tx log...
+2017-01-24 00:06:40.536+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [1]:  Appending check point entry into the tx log completed
+2017-01-24 00:06:40.537+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [1]:  Check pointing completed
+2017-01-24 00:06:40.537+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-01-24 00:06:40.538+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-01-24 00:06:40.614+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
+2017-01-24 00:06:40.614+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
