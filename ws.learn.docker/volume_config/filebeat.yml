@@ -1,7 +1,8 @@
 
-###################### Filebeat Configuration Example #########################
-
-# This file is an example configuration file highlighting only the most common
+###################### Filebeat Configuration #########################
+# This file is configuration file for filebeats. 
+#
+# This file is based on an example configuration file highlighting only the most common
 # options. The filebeat.full.yml file from the same directory contains all the
 # supported options with more comments. You can use it as a reference.
 #
@@ -79,9 +80,9 @@ filebeat.prospectors:
 # Multiple outputs may be used.
 
 #-------------------------- Elasticsearch output ------------------------------
-output.elasticsearch:
+#output.elasticsearch:
   # Array of hosts to connect to.
-  hosts: ["192.170.1.134:32772"]
+  #hosts: ["192.170.1.134:35043"]
 
   # Optional protocol and basic auth credentials.
   #protocol: "https"
@@ -89,9 +90,9 @@ output.elasticsearch:
   #password: "changeme"
 
 #----------------------------- Logstash output --------------------------------
-#output.logstash:
+output.logstash:
   # The Logstash hosts
-  #hosts: ["localhost:5044"]
+  hosts: ["lstash:5043"]
 
   # Optional SSL. By default is off.
   # List of root certificates for HTTPS server verifications
