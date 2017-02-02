@@ -14,6 +14,11 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: org.scala-lang:scala-library:2.11.8" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.4" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-actor_2.11:2.4.16" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe:config:1.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.scala-lang.modules:scala-java8-compat_2.11:0.7.0" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-slf4j_2.11:2.4.16" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.16" level="project" />
     <orderEntry type="library" name="Maven: com.github.andyglow:websocket-scala-client_2.11:0.2.1" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-all:4.1.6.Final" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-codec-http:4.1.6.Final" level="project" />
@@ -23,8 +28,6 @@
     <orderEntry type="library" name="Maven: io.netty:netty-common:4.1.6.Final" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-resolver:4.1.6.Final" level="project" />
     <orderEntry type="library" name="Maven: org.scala-stm:scala-stm_2.11:0.8" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.12" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-simple:1.7.12" level="project" />
     <orderEntry type="library" name="Maven: com.typesafe.scala-logging:scala-logging_2.11:3.5.0" level="project" />
     <orderEntry type="library" name="Maven: org.scala-lang:scala-reflect:2.11.8" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.22" level="project" />
@@ -32,5 +35,6 @@
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api-scala_2.11:2.7" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.7" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-core:2.8" level="project" />
+    <orderEntry type="library" name="Maven: io.spray:spray-json_2.11:1.3.3" level="project" />
   </component>
 </module>
