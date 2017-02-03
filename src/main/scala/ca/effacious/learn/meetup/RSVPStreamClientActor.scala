@@ -43,23 +43,17 @@ class RSVPStreamClientActor extends Actor with akka.actor.ActorLogging {
   }
 
   def dispatch_message(msg :DispatchEventMessage): Unit = {
-      //println(s"<<| ${msg.rsvp_event} ")
-    println(msg.rsvp_event)
+    //    println(msg.rsvp_event)
     //extract rsvp id
-//    val rsvp_id = c_message_parser.parse(msg.rsvp_event).get_field("rsvp_id").get.toString
-//
-//    val rsvp = RsvpEvent(msg.event_count_no ,rsvp_id ,msg.rsvp_event)
-//    log.debug("client -rsvp {}/{} -> location_actor" ,msg.event_count_no ,rsvp_id)
-//
-//
-//
-//    context.actorOf(Props[LocationConcernActor]) ! rsvp
+    val rsvp_id = c_message_parser.parse(msg.rsvp_event).get_field("rsvp_id").get.toString
+
+    val rsvp = RsvpEvent(msg.event_count_no ,rsvp_id ,msg.rsvp_event)
+    log.debug("client -rsvp {}/{} -> location_actor" ,msg.event_count_no ,rsvp_id)
+
+    context.actorOf(Props[LocationConcernActor]) ! rsvp
 
     //return event that was processed to caller
   }
-
-
-
 
   def start_listening() = {
     log.info("Starting to listen to rsvp stream ({}) ...",RSVP_STREAM_URL)
