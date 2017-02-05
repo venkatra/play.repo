@@ -1,0 +1,31 @@
+
+ - Google cloud java
+    http://googlecloudplatform.github.io/google-cloud-java/0.8.2/index.html#
+    https://github.com/GoogleCloudPlatform/google-cloud-java
+    http://googlecloudplatform.github.io/google-cloud-java/0.8.2/index.html#
+
+# Re-use the credentials from gcloud-config volumes & run sdk commands:
+$ docker run --rm -ti --volumes-from gcloud-config google/cloud-sdk gcloud info
+$ docker run --rm -ti --volumes-from gcloud-config google/cloud-sdk gcloud components list
+$ docker run --rm -ti --volumes-from gcloud-config google/cloud-sdk gcutil listinstances
+$ docker run --rm -ti --volumes-from gcloud-config google/cloud-sdk gsutil ls
+
+===================================
+
+- data : wikilinks
+    https://code.google.com/archive/p/wiki-links/downloads
+    gcsdk gsutil cp /gcp_learn/data/wiki_links.txt gs://wikilink
+
+===================================
+
+- spark github source code
+    https://github.com/apache/spark/blob/v2.0.2/
+
+===================================
+- templates
+    https://github.com/apache/spark/tree/master/conf
+
+=====================================
+Google API Client Library
+    https://developers.google.com/api-client-library/java/
+    https://github.com/google/google-api-java-client
