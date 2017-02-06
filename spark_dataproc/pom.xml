@@ -20,6 +20,7 @@
         <hadoop.version>2.7.0</hadoop.version>
         <google_cloud_api.version>0.8.0</google_cloud_api.version>
         <google_client_api.version>1.22.0</google_client_api.version>
+        <jackson.version>2.6.5</jackson.version>
     </properties>
 
     <dependencies>
@@ -43,19 +44,34 @@
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-core_${scala.tools.version}</artifactId>
             <version>${spark.version}</version>
-            <scope>provided</scope>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-sql_${scala.tools.version}</artifactId>
             <version>${spark.version}</version>
-            <scope>provided</scope>
+            <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
+
+
         <!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-client -->
         <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-client</artifactId>
             <version>${hadoop.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.typesafe/config -->
+        <dependency>
+            <groupId>com.typesafe</groupId>
+            <artifactId>config</artifactId>
+            <version>1.3.1</version>
         </dependency>
 
         <!-- Test -->
