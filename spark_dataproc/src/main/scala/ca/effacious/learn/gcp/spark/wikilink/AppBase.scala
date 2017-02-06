@@ -63,6 +63,7 @@ trait AppBase {
 
   def initialize(a_commandLineArgsList :Seq[String]):Unit = {
     LOGR.info("Initializing ...")
+    LOGR.info("Command line : {}",a_commandLineArgsList.mkString(","))
     c_CommandLineArgsList = a_commandLineArgsList
 
     val appEnvironmentalConfigFilePath = {parseCommandLineArguments("-appEnvConf", c_CommandLineArgsList
@@ -113,20 +114,31 @@ trait AppBase {
   }
 
   def getSparkConf(a_appName: String): SparkConf = {
-    new SparkConf(true).setAppName(a_appName).setMaster("local[2]").set("spark.executor.memory","1g")
+
+    val spark_master_config = {parseCommandLineArguments("-spark_master", c_CommandLineArgsList
+      ,"The master url for spark context, defaults to local if not supplied", false ,"local")}
+
+    val l_sconf = new SparkConf(true).setAppName(a_appName)
+
+    //The spark_master_config gives an option for us to invoke setmaster or as per environment option.
+
+    spark_master_config match {
+      case "local" => l_sconf.setMaster(spark_master_config)
+      case _ => l_sconf
+    }
   }
 
   /**
     * Sets the spark contexts
     *
     */
-  def initializeSparkContext(a_appName: String ) = {
+  def initializeSparkContext(a_appName: String = APP_NAME) = {
     if (LOGR.isInfoEnabled)
       LOGR.info("Initializing spark context ...")
 
     val sparkConf = getSparkConf(a_appName)
     c_sc = new SparkContext(sparkConf)
-    c_sqlContext = new org.apache.spark.sql.SQLContext(c_sc)
+    //c_sqlContext = new org.apache.spark.sql.SQLContext(c_sc)
   }
 
   def stopSparkContext(): Unit = {
