@@ -12,10 +12,13 @@
 
 CLUSTER_NAME="wikilink-learn-cluster-2017"
 
+gcsdk gsutil rm -r -f gs://wikilink/wiki_links_formatted
+
 gcsdk gcloud dataproc jobs submit spark --cluster ${CLUSTER_NAME} \
       --jars ${DOCKER_HOSTED_DIR}/spark_dataproc/target/spark_dataproc-1.0-SNAPSHOT-jar-with-dependencies.jar \
       --files=${DOCKER_HOSTED_DIR}/spark_dataproc/src/main/resources/log4j.properties \
       --class ca.effacious.learn.gcp.spark.WikiLinkAppMain \
         -appEnvConf gs://bkt_app_artifact/WikiLinkApp.conf \
         -spark_master none \
-        -input_file_path gs://wikilink/wiki_links.txt
+        -input_file_path gs://wikilink/wiki_links.txt \
+        -output_file_path gs://wikilink/wiki_links_formatted
