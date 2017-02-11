@@ -10,6 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="gaep_learn" target="1.5" />
       <module name="gcp_learn" target="1.5" />
       <module name="spark_dataproc" target="1.8" />
     </bytecodeTargetLevel>

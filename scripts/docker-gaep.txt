@@ -1,0 +1,5 @@
+#The following are notes for commands used during development of gaep
+
+
+
+alias csdk='docker run --rm -it --volumes-from gcloud-config -v ${WS_DIR}:/gcp_learn google/cloud-sdk /bin/bash'
