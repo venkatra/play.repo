@@ -16,3 +16,9 @@ ENV FILEBEAT_VERSION=1.0.05
 #download curl, Download and install filebeats
 RUN wget https://bootstrap.pypa.io/get-pip.py && \
     python get-pip.py
+
+EXPOSE 8080
+EXPOSE 8000
+
+VOLUME	[ "/gaep_learn" ]
+# ENTRYPOINT [ "dev_appserver.py" ]
