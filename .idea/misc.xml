@@ -9,6 +9,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/gaep_learn/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </set>
     </option>
   </component>

@@ -1,0 +1,13 @@
+Dataset info :
+  http://commoncrawl.org/the-data/get-started/
+  https://commoncrawl.s3.amazonaws.com/
+
+  http://commoncrawl.org/2017/02/january-2017-crawl-archive-now-available/
+
+  gcloud compute --project "get2know-gcp-2017" ssh --zone "us-east1-c" "inst-download"
+
+  wget  -P /tmp/cron_test/ https://commoncrawl.s3.amazonaws.com/crawl-data/CC-MAIN-2017-04/warc.paths.gz
+  https://commoncrawl.s3.amazonaws.com/crawl-data/CC-MAIN-2017-04/robotstxt.paths.gz
+
+  wget  -P gs://bkt-common-crawl-201701/download/ https://commoncrawl.s3.amazonaws.com/crawl-data/CC-MAIN-2017-04/robotstxt.paths.gz
+  wget  -P gs://bkt-common-crawl-201701/download/ https://commoncrawl.s3.amazonaws.com/crawl-data/CC-MAIN-2017-04/robotstxt.paths.gz

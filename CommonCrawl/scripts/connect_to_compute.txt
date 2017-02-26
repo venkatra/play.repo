@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+
+####################################################
+#
+#	Script to connect to the compute instance created in gcloud.
+#
+#    Notes:
+#       - script to be executed from parent module folder
+#
+####################################################
+
+. ./scripts/setenv.sh
+
+alias gcsdk='docker run --rm -ti --volumes-from gcloud-config -v ${WS_DIR}:/gcp_learn google/cloud-sdk'
+
+
+alias gctunnel='gcloud compute ssh  --zone=us-east1-b --ssh-flag="-D 1080" --ssh-flag="-N" --ssh-flag="-n" ccrawl-learn-cluster-2017-m'
+
+
+
+
+
+#gcloud compute ssh  --zone=us-east1-b \
+#   --ssh-flag="-D 1080" --ssh-flag="-N" --ssh-flag="-n" ccrawl-learn-cluster-2017-m
+
+#Connect to docker image
+gcsdk
+
+# Setup the ssh keys as described here
+#   https://cloud.google.com/compute/docs/instances/connecting-to-instance#standardssh
+
+# use ssh as follows :
+#   ssh -i ~/.ssh/my-ssh-key m_6472927171@35.185.52.58
+
+#gcloud compute ssh "inst-download"

@@ -8,7 +8,9 @@
 WS_DIR=/Users/d3vl0p3r/Dev/git_play_repo/gcp_learn
 
 alias gcsdk='docker run --rm -ti --volumes-from gcloud-config -v ${WS_DIR}:/gcp_learn google/cloud-sdk'
+
 shopt -s expand_aliases
+
 
 MAVEN_HOME=/Users/d3vl0p3r/Dev/lib/apache-maven-3.3.1/
 

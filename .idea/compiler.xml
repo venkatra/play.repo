@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="CommonCrawl" />
         <module name="spark_dataproc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="CommonCrawl" target="1.5" />
       <module name="gaep_learn" target="1.5" />
       <module name="gcp_learn" target="1.5" />
       <module name="spark_dataproc" target="1.8" />
