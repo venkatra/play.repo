@@ -30,7 +30,7 @@ class CommonCrawlAppUnzip extends AppBase {
     initialize(a_commandLineArguments)
     initializeSparkContext("")
 
-    val data_fl_rdd= c_sc..textFile(c_input_file_path)
+    val data_fl_rdd= c_sc.textFile(c_input_file_path)
     val row_count = data_fl_rdd.count()
 
     data_fl_rdd.map(x=> {

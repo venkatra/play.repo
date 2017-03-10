@@ -1,0 +1,15 @@
+
+
+
+
+###############################################
+ Rough notes
+
+ - using pipline to read gzip
+
+    https://cloud.google.com/dataflow/model/text-io
+
+    Pipeline p = ...;
+      p.apply(TextIO.Read.named("ReadMyFile")
+                         .from("gs://some/inputData.gz")
+                         .withCompressionType(TextIO.CompressionType.GZIP));

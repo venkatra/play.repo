@@ -11,3 +11,12 @@ Dataset info :
 
   wget  -P gs://bkt-common-crawl-201701/download/ https://commoncrawl.s3.amazonaws.com/crawl-data/CC-MAIN-2017-04/robotstxt.paths.gz
   wget  -P gs://bkt-common-crawl-201701/download/ https://commoncrawl.s3.amazonaws.com/crawl-data/CC-MAIN-2017-04/robotstxt.paths.gz
+
+
+
+  ###
+  # rough notes
+
+  gsutil cat gs://bkt-crawl-app/stage_v1/raw_unzip/part-00115 | more
+
+https://storage.cloud.google.com/bkt-crawl-app/etl_dflow/test-00000-of-00007?_ga=1.99073821.2052461733.1487845702

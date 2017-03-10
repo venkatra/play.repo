@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="CommonCrawl" />
+        <module name="dataflow" />
         <module name="spark_dataproc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="CommonCrawl" target="1.5" />
+      <module name="dataflow" target="1.8" />
       <module name="gaep_learn" target="1.5" />
       <module name="gcp_learn" target="1.5" />
       <module name="spark_dataproc" target="1.8" />

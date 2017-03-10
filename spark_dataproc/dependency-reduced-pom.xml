@@ -109,7 +109,7 @@
           <groupId>com.google.cloud</groupId>
         </exclusion>
         <exclusion>
-          <artifactId>google-cloud-pubsub</artifactId>
+          <artifactId>google-cloud-ca.effacious.learn.dflow.meetup.pubsub</artifactId>
           <groupId>com.google.cloud</groupId>
         </exclusion>
         <exclusion>

@@ -12,6 +12,7 @@
         <module>spark_dataproc</module>
         <module>gaep_learn</module>
         <module>CommonCrawl</module>
+        <module>dataflow</module>
 
     </modules>
 
